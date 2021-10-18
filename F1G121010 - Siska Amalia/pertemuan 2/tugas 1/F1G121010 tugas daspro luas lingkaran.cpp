@@ -1,7 +1,8 @@
 #include <iostream>
+
 using namespace std;
 
-int main (){
+int main(){
 	
 	float luas, phi=3.14;
 	int r;
@@ -9,10 +10,9 @@ int main (){
 	cout<<"masukkan jari-jari : ";
 	cin>>r;
 	
-	luas=phi*r*r
+	luas=phi*r*r;
 	
-	;cout<<"luas lingkaran = "<<luas<<" cm^2"<<endl;
+	cout<<"luas lingkaran = "<<luas<<endl;
 	
-	
-	return 0;
+		
 }
