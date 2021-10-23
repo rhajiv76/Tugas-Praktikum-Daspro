@@ -5,7 +5,7 @@ int main()
 {
 	string user , pass ;
 	
-	//untuk masuk dalam halaman registrasi anda perlu memasukkan username dan password
+	//Ketika masuk di halaman registrasi anda perlu memasukkan username dan password
 	
 	cout<<"......................SELAMAT DATANG DI HALAMAN REGISTRASI....................."<<endl;
 	cout<<"Masukkan username = ";
