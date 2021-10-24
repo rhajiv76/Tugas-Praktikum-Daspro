@@ -2,7 +2,7 @@
 using namespace std;
 
 int main (){
-char ulang,akhiri;
+char ulang;
     cout<<"xxxxx=====================================xxxxx"<<endl;
 	cout<<"|  SELAMAT DATANG DI PROGRAM LOGIN FADHILLAH  |"<<endl;
 	cout<<"xxxxx=====================================xxxxx"<<endl;
