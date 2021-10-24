@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-	
+//	program diduga copas dan tidak mengerjakan sendiri
 	cout<<"NAMA          : EKA SARTIKA"<<endl;
 	cout<<"NIM           : F1G121051  "<<endl;
 	cout<<"PROGRAM STUDI : ILMU KOMPUTER"<<endl;
