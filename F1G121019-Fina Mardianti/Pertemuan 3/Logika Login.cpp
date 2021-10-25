@@ -5,19 +5,22 @@ using namespace std;
 
 int main()
 {
-	cout<<"==========Halaman Registrasi=========="<<endl;
-	cout<<"Nama : Fina Mardianti"<<endl;
-	cout<<"Tanggal Lahir : 28 Maret 2003"<<endl;
-	cout<<"No.HP : 082240228663 "<<endl;
-	cout<<"==========Halaman Login=========="<<endl;
-	
 	system ("color 9");
 	string user, pass;
 	
+	cout<<"==========Halaman Registrasi=========="<<endl;
 	cout<<"Masukkan Username : ";
 	cin>>user;
 	cout<<"Masukkan Password : ";
 	cin>>pass;
+	cout<<"\n\n";
+	
+	cout<<"==========Halaman Login=========="<<endl;
+	cout<<"Username : ";
+	cin>>user;
+	cout<<"Password : ";
+	cin>>pass;
+	cout<<"\n\n";
 	
 	if (user == "finamrdnti" && pass == "280303"){
 		cout<<"Hallo Fina Mardianti"<<endl;
