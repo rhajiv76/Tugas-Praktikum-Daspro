@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-	cout<<"==========Halaman REgistrasi=========="<<endl;
+	cout<<"==========Halaman Registrasi=========="<<endl;
 	cout<<"Nama : Fina Mardianti"<<endl;
 	cout<<"Tanggal Lahir : 28 Maret 2003"<<endl;
 	cout<<"No.HP : 082240228663 "<<endl;
