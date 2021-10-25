@@ -6,8 +6,9 @@ using namespace std;
 int main()
 {
 	cout<<"==========Halaman REgistrasi=========="<<endl;
-	cout<<"Username : Finamardianti"<<endl;
-	cout<<"Password : fina280303"<<endl;
+	cout<<"Nama : Fina Mardianti"<<endl;
+	cout<<"Tanggal Lahir : 28 Maret 2003"<<endl;
+	cout<<"No.HP : 082240228663 "<<endl;
 	cout<<"==========Halaman Login=========="<<endl;
 	
 	system ("color 9");
@@ -18,12 +19,12 @@ int main()
 	cout<<"Masukkan Password : ";
 	cin>>pass;
 	
-	if (user == "Finamardianti" && pass == "fina280303"){
+	if (user == "finamrdnti" && pass == "280303"){
 		cout<<"Hallo Fina Mardianti"<<endl;
 	}
 	
 	else{
-		cout<<"Failed, your Username and Password is Wrong";
+		cout<<"Failed, your Username or Password is Wrong";
 	}
 	
 	getch;
