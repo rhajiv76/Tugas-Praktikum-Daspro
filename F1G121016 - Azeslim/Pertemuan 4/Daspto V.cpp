@@ -29,10 +29,10 @@ int main() {
 			cout<< "Masukan pilihan anda : " << endl ;
 			cin>> pilihan;
 			if (pilihan == 'y') {
-				system("clear") ;
+				system("cls") ;
 			goto menu ;
 			} else if (pilihan == 'n'){
-				system("clear") ;
+				system("cls") ;
 			cout<< "Terima kasih karena telah memesan Car Deliferi" ;
 			} else {
 			cout<<"opsi yang anda pilih salah " ;
@@ -76,7 +76,7 @@ int main() {
 			cout<< "Masukan pilihan anda : " << endl ;
 			cin>> pilihan;
 			if (pilihan == 'y'){
-				system("cla");
+				system("cls");
 			goto menu ;
 		} else if (pilihan == 'n'){
 			system("cls");
@@ -87,7 +87,7 @@ int main() {
 	}
 	break ;
 	default :
-		system("clear");
+		system("cls");
 		cout<<"opsi yang anda pilih salah!!" << endl ;
 		goto menu ;
 
