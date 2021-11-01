@@ -68,7 +68,6 @@ int main (){
   			total += harga*jmlh_barang;
   			cout<< jmlh_barang << " "<<item<< " = Rp. "<< harga*jmlh_barang <<endl<<endl;
   			break;
-			system("clear");
   		case 7 :
   			item = "Dancow Susu Bubuk Fortigro Instan Sachet";
   			harga = 3000;
@@ -79,8 +78,8 @@ int main (){
   			break;
 		case 8 : 
 			cout<<endl<<endl;
-
-		    cout << "============================================================================================================" << endl;
+			 
+		    	cout << "============================================================================================================" << endl;
 			cout<< "Jumlah Bayar : " <<total<<endl;
 			
 			if(total >= 100000){
@@ -91,8 +90,6 @@ int main (){
 				diskon = 0.03 * total;
 			} else{
 				diskon = 0;
-			system ("cls");
-			
 			}
 			cout<<"Diskon       : " << diskon <<endl;
 			cout<<"Total Bayar  : "<< total - diskon << endl;
